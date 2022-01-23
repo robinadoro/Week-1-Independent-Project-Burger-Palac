@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 12%;
+}
+
+.name {
+  margin-top: 2%;
+  width: 17%;
+}
+
+#logo_name {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+#navbar {
+  display: flex;
+  width: 100%;
+}
+
+#navbar_list {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar_list li {
+  font-weight: bold;
+}
+
+#right_logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+#right_logo img {
+  margin: 0 15%;
+}
+
+#catch_div {
+  display: flex;
+}
+
+#catch_phrase {
+  width: 50%;
+}
+
+#catch_text_button {
+  margin: 13% 13% 0 13%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+}
+#catch_phrase h1 {
+  margin-top: 15%;
+}
+#catch_phrase h4 {
+  margin-top: 10%;
+}
+#catch_phrase button {
+  align-self: flex-start;
+  margin-top: auto;
+  border:none; 
+  outline:none;
+  padding:12px 20px;
+  border-radius: 12px 12px 0 12px;
+}
+
+#catch_image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#catch_image img {
+  width: 52%;
+}
+
+#services ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+#services ul li{
+    width:30%;
+}
+
+.menu{
+    padding:10% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu_item{
+  width:25%;
+  height:300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:3% 10px;
+}
+
+.menu_item img{
+    width:75%;
+}
+
+#double_decker{
+    display: flex;
+    height:550px;
+}
+
+#double_decker div{
+    flex: 1 1 0%;
+}
+#double_decker_images{
+    position: relative;
+}
+#double_decker_images img{
+    position: absolute;
+    width:50%;
+  }
+
+#double_decker_icons{
+    display: flex;
+    height:100px;
+    margin-top: 50px;
+}
+
+#img_1{
+    top:10%; 
+    right:25%;
+    z-index:10;
+    
+}
+#img_2{
+    top:0; 
+    right: 10%;
+}
+
+#double_decker_text_icons{
+    margin: 13% 13% 0 13%;
+}
+
+#double_decker_text_icons h1{
+    font-size: 70px;
+}
+#double_decker_text_icons h3{
+    margin-top: 5%;
+}
+
+#play_store_advert{
+    height:550px;
+    display: flex;
+    background-color: #F9C100;
+}
+
+#play_store_advert div{
+    flex: 1 1 0%;
+
+}
+#subscribe{
+    display: flex;
+}
+#subscribe div{
+    flex: 1 1 0%;
+    padding:10px 0;
+}
+
+#subscribe_nav ul{
+ list-style: none;
+}
+#subscribe_nav ul li{
+    margin:5px 0;
+}
+#subscribe_form{
+    padding:200px 0;
+}
+
+#subscribe_form h3{
+    margin:5% 0;
+}
+#subscribe_form div {
+    display: flex;
+}
+#subscribe_form div input{
+    height:40px;
+    width:50%;
+}
+#subscribe_form div button{
+    width:25%;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+}
+#footer div{
+    flex: 1 1 0%;
+    display: flex;
+    justify-content: center;
+
+}
+#footer_icons{
+    height:50px;
+}
