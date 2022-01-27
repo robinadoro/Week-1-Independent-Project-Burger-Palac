@@ -76,8 +76,6 @@
 #catch_image {
   flex-basis: 50%;
   min-width: 300px;
-  
-
 }
 #catch_image img { 
   max-width: 80%;
@@ -231,4 +229,17 @@
 #catch_text_button h1{
   font-size: 50px;
   line-height: 60px;
+}
+.quality{
+  border: 1px solid #666;
+  border-radius: 30px;
+  flex: 1;
+  margin: 70px;
+  padding: 60px;
+  box-shadow: 0 0 20px 0;
+  cursor: pointer;
+}
+.quality:hover{
+  transform: translateY(-15px);
+	 transition: transfom.3s;
 }
