@@ -200,14 +200,18 @@
  list-style: none;
  padding: 5px;
 }
+#subscribe_nav h3{
+  padding: 5px;
+}
 #subscribe_nav ul li{
     margin:5px 0;
 }
 #subscribe_form{
-    padding:200px 0; 
+    padding:300px 0; 
 }
 #subscribe_form h3{
   margin-left: 100px;
+  padding: 18px;
 }
   
 #subscribe_form div {
