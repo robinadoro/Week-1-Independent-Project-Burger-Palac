@@ -173,7 +173,7 @@
 }
 
 #play_store_advert{
-    height:550px;
+    height:750px;
     display: flex;
     background-color: #F9C100;
 }
@@ -256,16 +256,28 @@
     left: 50px;
 }
 .playstore_icons img{
-  height: 50px;
+  height: 80px;
   
 }
+#discover_text{
+  text-align: left;
+  margin: 1px;
+}
 .discover{
-  
   background-size:90px 30px;
   width:400px;
-  margin-left:0px;
+  margin-left:1px;
   height:400px;
  
   justify-content: left;
   padding: 70px 0; 
+}
+span{
+  color: #F9C100;
+}
+.app_image img{
+  height: 500px;
+  padding: 70px;
+  position: right;
+  right: 50px;
 }
