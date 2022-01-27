@@ -252,7 +252,7 @@
 	 transition: transfom.3s;
 }
 .playstore_icons{
-    padding: 30px 0;
+    padding: 80px 2px;
     position: relative;
     left: 50px;
 }
@@ -261,8 +261,12 @@
   
 }
 #discover_text{
-  text-align: left;
-  margin: 1px;
+  /*text-align: left;*/
+  padding: 30px 2px;
+  position: relative;
+  left: -70px;
+  font-size: 30px;
+  
 }
 .discover{
   background-size:90px 30px;
@@ -273,12 +277,17 @@
   justify-content: left;
   padding: 70px 0; 
 }
-span{
+#double_decker_text_icons span{
   color: #F9C100;
 }
 .app_image img{
   height: 500px;
-  padding: 100px;
-  position: right;
-  right: 90px;
+  padding: 50px;
+  position: relative;
+  right:-200px;
+  margin-top: 70px;
+}
+.our_menu span{
+  color: #F9C100;
+  text-decoration-line: underline;
 }
