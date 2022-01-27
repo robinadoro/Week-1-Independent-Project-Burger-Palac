@@ -284,10 +284,10 @@
 }
 #discover_text{
   /*text-align: left;*/
-  padding: 30px 2px;
+  padding: 5px 1px;
   position: relative;
   left: -70px;
-  font-size: 30px;
+  font-size: 25px;
   
 }
 .discover{
