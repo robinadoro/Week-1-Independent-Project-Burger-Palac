@@ -204,11 +204,15 @@
     margin:5px 0;
 }
 #subscribe_form{
-    padding:200px 0;
+    padding:200px 0; 
+}
+#subscribe_form h3{
+  margin-left: 100px;
 }
   
 #subscribe_form div {
     display: flex;
+    margin-left: 100px;
 }
 #subscribe_form div input{
     height:40px;
@@ -225,7 +229,8 @@
 #footer div{
     flex: 1 1 0%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 100px;
 
 }
 #footer_icons{
