@@ -46,19 +46,13 @@
   margin: 0 15%;
 }
 
-#catch_div {
-  display: flex;
-}
-
 #catch_phrase {
-  width: 50%;
-}
-
-#catch_text_button {
-  margin: 13% 13% 0 13%;
-  height: 65%;
+  width: 80%;
   display: flex;
-  flex-direction: column;
+}
+#catch_text_button {
+  flex-basis: 50%;
+  min-width: 300px;
 }
 #catch_phrase h1 {
   margin-top: 15%;
@@ -67,21 +61,31 @@
   margin-top: 10%;
 }
 #catch_phrase button {
-  align-self: flex-start;
-  margin-top: auto;
-  border:none; 
-  outline:none;
-  padding:12px 20px;
-  border-radius: 12px 12px 0 12px;
+  display: inline-block;
+  background: #F9C100;
+  color: #ffff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+#catch_phrase button:hover{
+  background: brown;
 }
 
 #catch_image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  flex-basis: 50%;
+  min-width: 300px;
+  
+
 }
-#catch_image img {
-  width: 52%;
+#catch_image img { 
+  max-width: 80%;
+  padding: 0 0;
+  background-size: 100%;
+  
+  margin: 0px;
+
 }
 
 #services ul{
@@ -191,10 +195,7 @@
 #subscribe_form{
     padding:200px 0;
 }
-
-#subscribe_form h3{
-    margin:5% 0;
-}
+  
 #subscribe_form div {
     display: flex;
 }
@@ -218,4 +219,16 @@
 }
 #footer_icons{
     height:50px;
+}
+.header1{
+  background-color: #F9C100;
+}
+.back1{
+  max-width: 100%;
+  margin: auto;
+  padding: 25px;
+}
+#catch_text_button h1{
+  font-size: 50px;
+  line-height: 60px;
 }
