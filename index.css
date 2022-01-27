@@ -58,6 +58,8 @@
 #catch_text_button {
   flex-basis: 50%;
   min-width: 300px;
+  
+  margin-left: 100px;
 }
 #catch_phrase h1 {
   margin-top: 15%;
